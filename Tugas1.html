@@ -1,0 +1,29 @@
+<html>
+<head>
+    <script src="jquery-3.6.3.js"></script>
+    <script type="text/javascript">
+        //java script foto 1
+        $(document).ready(function () {
+            $(".sembunyikan1").click(function () { $(".foto").hide("slow") });
+            $(".tampilkan1").click(function () { $(".foto").show("slow") });
+            
+            //Java script Foto 2
+            $(".sembunyikan2").click(function () { $(".foto2").hide("slow") });
+            $(".tampilkan2").click(function () { $(".foto2").show("slow") });
+
+        });
+    </script>
+</head>
+
+<body>
+    <!--Hide show foto 2-->
+    <button class="sembunyikan1">sembunyikan</button>
+    <button class="tampilkan1">tampilkan</button>
+    <p><img style="width: 300;" class="foto" src="images/santai dulu ga sih 1.png"></p>
+
+    <!--Hide show foto 2-->
+    <button class="sembunyikan2">sembunyikan</button>
+    <button class="tampilkan2">tampilkan</button>
+    <p><img style="width: 300;" class="foto2" src="images/santai dulu ga sih2.jpg"></p>
+</body>
+</html>
